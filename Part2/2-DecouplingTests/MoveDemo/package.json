@@ -1,0 +1,15 @@
+{
+  "name": "movedemo",
+  "version": "1.0.0",
+  "description": "Demo for Jasmine and Decoupling",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Jing Lu",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^4.4.0"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "challenge2-bank",
+  "version": "1.0.0",
+  "description": "Bank challenge",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byJingLu/bank-challenge.git"
+  },
+  "author": "Jing Lu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byJingLu/bank-challenge/issues"
+  },
+  "homepage": "https://github.com/byJingLu/bank-challenge#readme",
+  "devDependencies": {
+    "jasmine": "^4.4.0"
+  }
+}
