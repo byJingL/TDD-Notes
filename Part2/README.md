@@ -12,13 +12,13 @@
     expect(() => { testDiary.addEntry() }).toThrowError(`Diary is locked`); <= spec
     ```
 - Tricky Error in Jasmine Test Framwork:  
-    In this `secretdiary.spec.js` sample, `const mockLockSpy = spyOn(mockLock, `isLocked`);` shou be in `it()` function, if not, will have bellow Error. 
+    In this `secretdiary.spec.js` sample, `const mockLockSpy = spyOn(mockLock, isLocked);` should be in `it()` function, if not, will have bellow Error. 
     ```
     ERROR: 'DEPRECATION: describe with no children (describe() or it())
 
     This can happen if an error occurs before the code hits the inner describe or it functions. So the test code never reaches the inner functions.
     ```   
-- Secret Diary Walkthrough - [SecretDiary](/3-SecrectDiary/) 
+- Secret Diary Walkthrough - [SecretDiary](/Part2/3-SecrectDiary/) 
     - Decoupling `class`: SecretDiary and Lock should be two class
     - Decoupling `spec.js`: 
         - Class stub (Test double)
@@ -31,14 +31,14 @@
     - Testing and Mocking Strategies (to Loosely Coupled `spec` code)
   
 ### Part2  
-- SingleResponsibility - Decoupling `spec.js` file- [MoveDemo](/2-DecouplingTests/MoveDemo/spec/move-decoupling.spec.js) 
+- SingleResponsibility - Decoupling `spec.js` file- [MoveDemo](/Part2/2-DecouplingTests/MoveDemo/spec/move-decoupling.spec.js) 
     -  One spec file should import/test one class which need to be tested
     -  Each class should have own spec test file / One class One spec file
     -  Test Double (or a class stub) or a MOCK
        -  using a class stub create in `spec,js` file   
        -  using a SPY 
        -  using MOCK (Detailed in Day3)
-- SingleResponsibility - Decoupling `class` - [MoveDemo](/2-DecouplingTests/MoveDemo/) 
+- SingleResponsibility - Decoupling `class` - [MoveDemo](/Part2/2-DecouplingTests/MoveDemo/) 
     - SingleResponsibility - `move.spec.js` => `move-decoupling.spec.js`
     - `class Move` should have no import, import thing should in main-program `index.js` - Loosly coupling  
     - Check error in Jasmine Test
@@ -94,13 +94,13 @@
 - Test code in Week1 is a liitle messy
 
 ### Part1 
-- SingleResponsibility - Decoupling - [WalletDemo](/2-DecouplingTests/WalletDemo/)
+- SingleResponsibility - Decoupling - [WalletDemo](/Part2/2-DecouplingTests/WalletDemo/)
     - Every class always have its own file
     - Tightly coupling: In one class import another class, it is not good 
       Loosly coupling: just import class in `index.js` file / `main` program in other language
     - Still coupling but decoupling
     - In this Demo `class Wallet` just have one responsibility: manage things
-- SingleResponsibility - Encapsulation - [AccountDemo](/1-AccountDemo/)  
+- SingleResponsibility - Encapsulation - [AccountDemo](/Part2/1-AccountDemo/)  
     - Private Acess of Class properties and methods
     - Getter and Setter methods
     - Meaning of Encapsulation:  

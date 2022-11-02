@@ -1,6 +1,6 @@
 ### Challenge 1
 - Airport Challenge
-### Part4
+### Part3
 - [Debugging](/Part1/debugging/)
     - Debug Javascript in browser: set a breakpoint
     - Debug Javascript in VSCode: the same as in browser
@@ -12,10 +12,9 @@ isNaN(): value is not a number -> true
 isNaN()
 ```
 - [Excption](https://stackoverflow.com/questions/115548/why-is-isnannull-false-in-js): `isNaN(null) -> false`
-### Part3
-- [Classes Knowleage](/Part1/classesDemo.js) (Part of OOP)
-- Professional Skills Intro
+
 ### Part2
+- [Classes Knowleage](/Part1/classesDemo.js) (Part of OOP)
 - [Bobs Begels' Project](/Part1/bobs-bagels/) (TDD)
 - Test Framework and Test-drive Development 
 - [Hint](/Part1/testDemo/test/compareTowArrays.spec.js): Campare two arrays in JavaScript
